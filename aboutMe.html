@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>GraceHo.Me</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Description" content="landing and about me page for Grace Ho, a full stack engineer and developer. proficient in many langugages including JavaScript, .Net, and c#">
+  <link rel="shortcut icon" href="assets\images\favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
+  <!-- Compiled and minified CSS Materialize-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="assets\css\index.css">
+</head>
+
+<body>
+  <div class="navbar-fixed" id="switchableNavBar">
+    <nav>
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="index.html"><img class="navLogo" src="assets\images\PersonalLogo.png"></a>
+          <a href="#" data-target="mobileNavBar" class="sidenav-trigger right"><i class="material-icons"
+              id="hamburgerTrigger">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li class="active"><a class="navLink" href="index.html#aboutMe">About Me</a></li>
+            <li><a class="navLink" href="skills.html">Skills</a></li>
+            <li><a class="navLink" href="projects.html">Coding Projects</a></li>
+            <li><a class="navLink" href="timeline.html">Timeline</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <ul class="sidenav" id="mobileNavBar">
+    <li><a class="navLink" href="index.html#aboutMe">About Me</a></li>
+    <li><a class="navLink" href="skills.html">Skills</a></li>
+    <li><a class="navLink" href="projects.html">Projects</a></li>
+    <li><a class="navLink" href="timeline.html">Timeline</a></li>
+  </ul>
+
+  <main>
+    <div class="row banner flex">
+      <div class="col m6 vertAlign">
+        <div class="card" id="landingcard">
+          <div class="card-content" id="landingCardContent">
+            <h1>Grace <br> Ho</h1>
+            <h4>Full Stack Engineer | Educator <br> All Around Hustler</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col m6 vertAlign">
+        <div>
+          <img class="responsive-img col m5 offset-m1 noGutter animate__animated animate__pulse"
+            src="assets\images\squareHero.jpg" alt="black and white headshot">
+          <img src="assets\images\squareHero3.jpg" alt="selfie taken with a mug from Hiking with Geeks"
+            class="responsive-img col m5 noGutter animate__animated animate__pulse animate__delay-2s">
+          <img class="responsive-img col m5 noGutter offset-m1 animate__animated animate__pulse animate__delay-3s"
+            src="assets\images\squareHero4.jpg" alt="drinking coffee in a white mug">
+          <img class="responsive-img col m5 noGutter animate__animated animate__pulse animate__delay-4s"
+            src="assets\images\squareHero2.jpg" alt="color headshot with hand keeping hair out of face">
+        </div>
+      </div>
+    </div>
+    <div class="col s12" id=landingForMobile>
+      <img  class="responsive-img" id="newLandingPhoto" src="assets\images\aboutMePic.jpg" alt="color headshot">
+    </div>
+    <div class="row"></div>
+    <div class="container">
+      <section id="aboutMe">
+        <div class="row">
+          <h2> All About Me</h2>
+          <div class="col l12 flex">
+            <div class="card col m12 l8">
+              <div class="card-content">
+                <span class="card-title">
+                  Me In A Nutshell
+                </span>
+                <p>
+                  I am a Full Stack Engineer who has always had an interest in STEM. That interest has taken me from
+                  a Bachelor's degree in Psychology from Baylor University, to health care as a Lead Optician, and now,
+                  a Full Stack Engineer with a certification in Web Development from SMU. My background has instilled a
+                  strong sense of leadership, gumption, and teamwork.
+                </p>
+                <br>
+                <p>
+                  I appreciate "paying it forward" by helping those who want to grow or change their careers in the
+                  technology field. I enjoy working with others as a Teaching Assistant, and speaking publicly on
+                  various panels have been rewarding as well.
+                </p>
+                <br>
+                <p>
+                  When I am not busy coding, I enjoy being active by hiking with my dogs, and spending time at the gym.
+                  As an amateur powerlifter, my competitive drive and discipline helped me win first place in my
+                  division
+                  at a meet.
+                </p>
+                <br>
+                <p>For more information, view my <span><a
+                      href="https://drive.google.com/file/d/13IMA-DhBfTp5ZwvXTncxc50ZZMrD4Dpl/view?usp=sharing"
+                      id="resume" target="_blank">professional resume.</a></span></p>
+              </div>
+            </div>
+            <div class="col l4 vertAlign hide-on-med-and-down">
+              <img src="assets\images\DallasGiveCamp\DGCGroup2019.jpg" alt="Team from Dallas Give Camp 2019 with a physical Instagram frame" class="responsive-img">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col m12 flex">
+            <div class="col hide-on-med-and-down l5 vertAlign">
+              <img class="responsive-img" src="assets\images\DallasGiveCamp\DGC2019.jpg"
+                alt="My Team from Dallas Give Camp 2019">
+            </div>
+            <div class="card  col m12 l7">
+              <div class="card-content">
+                <span class="card-title">Developer Outreach</span>
+                <p>I believe in using one's talents and gifts for to help other. I was therefore delighted to learn
+                  about Dallas Give Camp, an annual event for individuals from all fields of technology to help various
+                  charities with anything from website, webstore, database creation to social media help.</p>
+                <br>
+                <p>Take a deeper look at the<a href="projects.html#dallasGiveCamp"> projects I've worked on for Dallas Give
+                  Camp</a></p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+    </div>
+
+    <div class="fixed-action-btn animate__animated animate__bounce animate__repeat-3 animate__delay-5s">
+      <a class="btn-floating btn-large orange accent-2 tooltipped" data-position="left" data-tooltip="Connect With Me!">
+        <i class="large material-icons">person_add</i>
+      </a>
+      <ul>
+        <li><a href="mailto:hi@graceho.me" target="_blank" class="btn-floating pink darken-3"><i
+              class="material-icons">email</i></a></li>
+        <li><a href="https://github.com/rainczech" target="_blank" class="btn-floating grey darken-2"><img
+              src="assets\images\IconsAndLogos\gitLogo.png" alt="" id="gitLogo"></a></li>
+        <li><a class="btn-floating teal darken-2" href="https://www.linkedin.com/in/grace-t-ho" target="_blank"><img
+              src="assets\images\IconsAndLogos\LinkedInLogo.png" id="linkedInLogo"></a></li>
+      </ul>
+    </div>
+
+  </main>
+
+<!-- below is link from linkedin for AMA -->
+  <!-- <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6775439558000590848" height="754" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> -->
+
+
+
+  <footer> © Grace Ho 2018-2021 </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="assets\js\script.js"></script>
+</body>
+
+</html>
